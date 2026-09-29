@@ -11,7 +11,7 @@ const CONFIG = {
   // WhatsApp number in international format, DIGITS ONLY (country code + number, no +, spaces or dashes).
   // Example for India: "919876543210"
   // REPLACE THE PLACEHOLDER BELOW WITH YOUR REAL NUMBER.
-  WHATSAPP_NUMBER: "919999999999",
+  WHATSAPP_NUMBER: "918539856181",
 
   BUSINESS_NAME: "Sunny Bhuja House",
   BUSINESS_EMAIL: "sunnybhujahouse@gmail.com",
