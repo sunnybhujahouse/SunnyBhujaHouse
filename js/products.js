@@ -23,7 +23,7 @@ const PRODUCTS = [
     image: "assets/products/sunny-bhuja.jpg",
     imageAlt: "Bowl of Sunny Bhuja puffed-rice snack mix",
     sizes: ["50g", "100g", "250g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "bhuja",
     badge: "Signature"
@@ -35,7 +35,7 @@ const PRODUCTS = [
     image: "assets/products/roasted-chana.jpg",
     imageAlt: "Bowl of dark roasted chana (roasted chickpeas)",
     sizes: ["100g", "250g", "500g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "roasted"
   },
@@ -46,7 +46,7 @@ const PRODUCTS = [
     image: "assets/products/roasted-moongfali.jpg",
     imageAlt: "Close-up of roasted peanuts (moongfali)",
     sizes: ["100g", "250g", "500g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "roasted"
   },
@@ -57,7 +57,7 @@ const PRODUCTS = [
     image: "assets/products/sev.jpg",
     imageAlt: "Fresh yellow sev piled in a large bowl",
     sizes: ["100g", "250g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "namkeen"
   },
