@@ -68,7 +68,7 @@ const PRODUCTS = [
     image: "assets/products/chiwda.jpg",
     imageAlt: "Bowl of chiwda — flattened rice snack mix with peanuts",
     sizes: ["100g", "250g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "namkeen"
   },
@@ -79,7 +79,7 @@ const PRODUCTS = [
     image: "assets/products/makka.jpg",
     imageAlt: "Bowl of crunchy roasted makka (corn snack)",
     sizes: ["100g", "250g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "roasted"
   },
@@ -90,7 +90,7 @@ const PRODUCTS = [
     image: "assets/products/mixed-bhuja.jpg",
     imageAlt: "Bowl of mixed bhuja namkeen with sev and peanuts",
     sizes: ["100g", "250g", "500g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "bhuja"
   },
@@ -101,7 +101,7 @@ const PRODUCTS = [
     image: "assets/products/sunny-popcorn.jpg",
     imageAlt: "Bowl of freshly popped popcorn",
     sizes: ["100g", "250g"],
-    price: "Coming Soon",
+    price: "₹20",
     available: true,
     category: "namkeen"
   },
@@ -112,7 +112,7 @@ const PRODUCTS = [
     image: "assets/products/nimbu-pani.jpg",
     imageAlt: "Glass of fresh nimbu pani with lemon and mint",
     sizes: ["250 ml", "500 ml"],
-    price: "Coming Soon",
+    price: "₹10",
     available: true,
     category: "drinks"
   }
