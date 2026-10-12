@@ -16,18 +16,41 @@ const PRODUCT_CATEGORIES = [
 ];
 
 const PRODUCTS = [
-  {
-    id: "sunny-bhuja",
-    name: "Sunny Bhuja",
-    description: "Our signature puffed-rice bhuja — light, crunchy and seasoned the way Bihar loves it.",
-    image: "assets/products/sunny-bhuja.jpg",
-    imageAlt: "Bowl of Sunny Bhuja puffed-rice snack mix",
-    sizes: ["50g", "100g", "250g"],
-    price: "₹20",
-    available: true,
-    category: "bhuja",
-    badge: "Signature"
+ // {
+    // id: "sunny-bhuja",
+    // name: "Sunny Bhuja",
+    // description: "Our signature puffed-rice bhuja — light, crunchy and seasoned the way Bihar loves it.",
+    // image: "assets/products/sunny-bhuja.jpg",
+    // imageAlt: "Bowl of Sunny Bhuja puffed-rice snack mix",
+    // sizes: ["50g", "100g", "250g"],
+    // price: "₹20",
+    // available: true,
+    // category: "bhuja",
+    // badge: "Signature"
+ // },
+ 
+{
+  id: "sunny-bhuja",
+  name: "Sunny Bhuja",
+  description: "Our signature puffed-rice bhuja — light, crunchy and seasoned the way Bihar loves it.",
+  image: "assets/products/sunny-bhuja.jpg",
+  imageAlt: "Bowl of Sunny Bhuja puffed-rice snack mix",
+  sizes: ["50g", "100g", "250g"],
+
+  // Price for each pack size, in rupees
+  prices: {
+    "50g": 10,
+    "100g": 20,
+    "250g": 50
   },
+
+  // Keep for compatibility with existing code
+  price: "₹20",
+
+  available: true,
+  category: "bhuja",
+  badge: "Signature"
+},
   {
     id: "roasted-chana",
     name: "Roasted Chana",
